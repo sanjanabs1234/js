@@ -6,6 +6,7 @@ for(var a=1;a<=20;a++)
 //2)
 for(var b=1;b<=50;b++)
     if(b%2==1){
+
         console.log(b)
     }
 
@@ -18,6 +19,7 @@ for(var c=7;c<=100;c++)
 
 
 //4)
+
  var d=20;
  while(d>=1){
      console.log(d)
