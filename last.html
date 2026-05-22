@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Product Store</title>
+
+<link rel="stylesheet"
+href="last.css">
+
+</head>
+
+<body>
+
+<h1>Product Store</h1>
+
+<p id="message">
+loading.....
+</p>
+
+<input
+type="text"
+id="search"
+placeholder="Search products">
+
+<h2>
+
+Cart:
+<span id="count">0</span>
+
+</h2>
+
+<h3>
+
+Total:
+$ <span id="total">0</span>
+
+</h3>
+
+<button onclick=
+"filterCategory('electronics')">
+
+Electronics
+
+</button>
+
+<button onclick=
+"filterCategory('jewelery')">
+
+Jewelery
+
+</button>
+
+<button onclick=
+"filterCategory(`men's clothing`)">
+
+Men Clothing
+
+</button>
+
+<button onclick=
+"filterCategory(`women's clothing`)">
+
+Women Clothing
+
+</button>
+
+<div id="products">
+
+</div>
+
+<h2>
+
+Cart Items
+
+</h2>
+
+<div id="cartItems">
+
+</div>
+
+<script src="script.js">
+
+</script>
+
+</body>
+
+</html>
